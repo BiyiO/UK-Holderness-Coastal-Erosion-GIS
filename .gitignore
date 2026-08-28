@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Zip archive files
+*.zip
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ArcGIS Pro lock files & temporary cache
+*.lock
+*.sr.lock
+*.wl.lock
+*.ed.lock
+.backups/
+ImportLog/
+Index/
