@@ -77,11 +77,19 @@ This repository contains a comprehensive **36-year multi-decadal Earth observati
 
 ### The DSAS Rate Metrics Explained
 1. **End Point Rate (EPR)**:
-   $$\text{EPR} = \frac{\text{Distance}_{2026} - \text{Distance}_{1990}}{36.0\text{ years}} \quad (\text{m/year})$$
+   
+```text
+EPR = \frac{Distance_{2026 - Distance_{1990{36.0 years \quad (m/year)
+```
+
 2. **Net Shoreline Movement (NSM)**:
-   $$\text{NSM} = \text{Distance}_{2026} - \text{Distance}_{1990} \quad (\text{meters})$$
+   
+```text
+NSM = Distance_{2026 - Distance_{1990 \quad (meters)
+```
+
 3. **Linear Regression Rate (LRR)**:
-   Fitted across all 4 epochs ($1990, 2005, 2015, 2026$) with $R^2$ accuracy score and standard error ($\pm\text{m/yr}$).
+   Fitted across all 4 epochs (`1990, 2005, 2015, 2026`) with `R²` accuracy score and standard error (± m/yr$).
 4. **Shoreline Change Envelope (SCE)**:
    The maximum envelope distance between any two observed shoreline positions.
 
@@ -182,11 +190,11 @@ Double-click `Holderness_Coastal_Erosion_Dashboard.html` or open in any web brow
 ### In ArcGIS Pro:
 1. Drag and drop `Holderness_DEM_30m.tif` and `Holderness_DSAS_Transects.shp`.
 2. Generate a Hillshade from the DEM using the **Hillshade Raster Function** (Azimuth: 315°, Altitude: 45°).
-3. Set the DEM Symbology to **Color Ramp** (Deep Blue $\rightarrow$ White $\rightarrow$ Green $\rightarrow$ Yellow $\rightarrow$ Red) and set Layer Blending to **Multiply** over the Hillshade.
+3. Set the DEM Symbology to **Color Ramp** (Deep Blue `\rightarrow` White `\rightarrow` Green `\rightarrow` Yellow `\rightarrow` Red) and set Layer Blending to **Multiply** over the Hillshade.
 
 ### In QGIS:
 1. Load `Holderness_DEM_30m.tif`.
-2. Right-click $\rightarrow$ **Properties** $\rightarrow$ **Style** $\rightarrow$ **Load Style** $\rightarrow$ select [`01_Raw_Data/Coastal_DEM/Holderness_DEM_Style.qml`](01_Raw_Data/Coastal_DEM/Holderness_DEM_Style.qml).
+2. Right-click `\rightarrow` **Properties** `\rightarrow` **Style** `\rightarrow` **Load Style** `\rightarrow` select [`01_Raw_Data/Coastal_DEM/Holderness_DEM_Style.qml`](01_Raw_Data/Coastal_DEM/Holderness_DEM_Style.qml).
 
 ---
 
