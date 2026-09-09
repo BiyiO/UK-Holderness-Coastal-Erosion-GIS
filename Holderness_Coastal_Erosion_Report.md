@@ -152,15 +152,15 @@ To ensure consistency across the 36-year monitoring window, four cloud-free sate
 Shoreline retreat rates were calculated along 120 cross-shore transects using established United States Geological Survey (USGS) DSAS algorithms:
 
 - **End Point Rate (EPR)**:
-  $$\text{EPR} = \frac{\text{Distance}_{2026} - \text{Distance}_{1990}}{\text{Time}_{2026} - \text{Time}_{1990}} = \frac{\text{NSM}}{36.0 \text{ years}} \quad (\text{m/year})$$
+  $`EPR = frac{Distance_{2026} - Distance_{1990}}{Time_{2026} - Time_{1990}} = frac{NSM}{36.0  years} quad (m/year)`$
 
 - **Linear Regression Rate (LRR)**:
-  Fitted through all four temporal positions ($1990, 2005, 2015, 2026$) using least-squares linear regression:
-  $$y = mx + c \implies \text{LRR} = m \quad (\text{m/year})$$
-  Accompanied by the coefficient of determination ($R^2$) and standard error of the estimate ($\pm \text{SE}$).
+  Fitted through all four temporal positions (`1990, 2005, 2015, 2026`) using least-squares linear regression:
+  $`y = mx + c implies LRR = m quad (m/year)`$
+  Accompanied by the coefficient of determination (`R²`) and standard error of the estimate (`pm SE`).
 
 - **Net Shoreline Movement (NSM)**:
-  $$\text{NSM} = \text{Distance}_{2026} - \text{Distance}_{1990} \quad (\text{meters})$$
+  $`NSM = Distance_{2026} - Distance_{1990} quad (meters)`$
 
 - **Shoreline Change Envelope (SCE)**:
   Total envelope distance between the most landward and most seaward observed shorelines across all four epochs.
