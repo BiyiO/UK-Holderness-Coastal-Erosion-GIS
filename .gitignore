@@ -22,3 +22,7 @@ desktop.ini
 .backups/
 ImportLog/
 Index/
+
+# Scratch notebooks
+Untitled*.ipynb
+
